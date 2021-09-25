@@ -1,0 +1,205 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* SECTION HEADER */
+
+header {
+	padding: 20px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background: white;
+	box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+header .logo img {
+	width: 140px;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+}
+
+header nav ul li a {
+	background: #f40612;
+	color: white;
+	padding: 12px 20px;
+	text-decoration: none;
+	margin-left: 8px;
+}
+
+/* END SECTION HEADER */
+
+/* SECTION BANNER */
+
+.banner-wrapper {
+	background: #eee;
+}
+
+.banner {
+	padding: 170px;
+	max-width: 1024px;
+	text-align: center;
+	margin: auto;
+}
+
+.banner h1 {
+	margin-bottom: 20px;
+}
+
+.banner .banner-description {
+	margin-bottom: 40px;
+	color: #888;
+}
+
+.banner .banner-subscription input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.banner .banner-subscription button {
+	width: 100%;
+}
+
+/* END SECTION BANNER */
+
+/* SECTION FEATURES */
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: solid rgba(0, 0, 0, 0.15);
+	border-width: 1px 0;
+	box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+		inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.bi {
+	vertical-align: -0.125em;
+	fill: currentColor;
+}
+
+.feature-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 4rem;
+	height: 4rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	color: #fff;
+	border-radius: 0.75rem;
+}
+
+.icon-link {
+	display: inline-flex;
+	align-items: center;
+}
+.icon-link > .bi {
+	margin-top: 0.125rem;
+	margin-left: 0.125rem;
+	transition: transform 0.25s ease-in-out;
+	fill: currentColor;
+}
+.icon-link:hover > .bi {
+	transform: translate(0.25rem);
+}
+
+.icon-square {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.5rem;
+	border-radius: 0.75rem;
+}
+
+.rounded-4 {
+	border-radius: 0.5rem;
+}
+.rounded-5 {
+	border-radius: 1rem;
+}
+
+.text-shadow-1 {
+	text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+	text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-3 {
+	text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-cover {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+/* END SECTION FEATURES */
+
+.kotak {
+	width: 150px;
+	height: 150px;
+	background: pink;
+	padding: 20px;
+}
+
+input {
+	padding: 10px;
+}
+
+.font-gede {
+	font-size: 60px;
+}
+
+.bg-blue {
+	background: blue;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-pink {
+	color: pink;
+}
+
+#about-me-link {
+	text-decoration: line-through;
+}
+
+.belajar-border {
+	border: 10px groove red;
+	border-radius: 10px;
+}
+
+button {
+	background: tomato;
+	border: none;
+	cursor: pointer;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 5px;
+	transition: all 200ms ease-in-out;
+}
+
+button:hover {
+	background: rgb(6, 110, 79);
+}
+
+.bg-gray {
+	background: #ccc;
+}
+
+.article-section {
+	padding: 20px;
+	border: 1px solid black;
+}
